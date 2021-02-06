@@ -2,7 +2,7 @@ import React from 'react';
 
 const Controls = ({fetchWeatherData, location, setLocation}) => {
     return(
-        <form className="controllers" onSubmit={(e) => fetchWeatherData(e)}>
+        <form className="controls" onSubmit={(e) => fetchWeatherData(e)}>
             <label htmlFor="zip">Zip Code:</label>
             <input
                 id="zip"

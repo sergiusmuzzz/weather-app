@@ -31,17 +31,22 @@
   font-size: 3.4375rem;
 }
 
-.controllers{
+.controls{
   display: inline-block;
   margin-top: 40px;
 }
 
-.controllers label{
+.controls label{
   display: block;
   text-align: left;
 }
 
-.controllers input{
+.controls input{
   width: 105px;
   margin-right: 10px;
+}
+
+.controls input,
+.controls button{
+  padding: .25rem;
 }
