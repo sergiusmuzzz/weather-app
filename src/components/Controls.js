@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Controllers = ({fetchWeatherData, location, setLocation}) => {
+const Controls = ({fetchWeatherData, location, setLocation}) => {
     return(
         <form className="controllers" onSubmit={(e) => fetchWeatherData(e)}>
             <label htmlFor="zip">Zip Code:</label>
@@ -16,4 +16,4 @@ const Controllers = ({fetchWeatherData, location, setLocation}) => {
     )
 }
 
-export default Controllers;
+export default Controls;

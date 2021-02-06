@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import WeatherStats from "./components/WeatherStats";
-import Controllers from "./components/Controllers";
+import Controls from "./components/Controls";
 import './App.css';
 
 
@@ -39,7 +39,7 @@ const App = () => {
         <div className="App">
             <WeatherStats {...weatherData} />
             <hr/>
-            <Controllers
+            <Controls
                 fetchWeatherData={fetchWeatherData}
                 location={location}
                 setLocation={setLocation}
