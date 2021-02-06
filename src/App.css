@@ -1,0 +1,47 @@
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.flex{
+  display: flex;
+}
+
+.temp-current{
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.temp-minmax{
+  font-size: 1.4375rem;
+  margin-bottom: 45px;
+}
+
+.temp-minmax span{
+  margin: 0 13.5px;
+}
+
+.temp-minmax span:first-child{
+  margin-left: 0;
+}
+
+.temp-current{
+  font-size: 3.4375rem;
+}
+
+.controllers{
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.controllers label{
+  display: block;
+  text-align: left;
+}
+
+.controllers input{
+  width: 105px;
+  margin-right: 10px;
+}
