@@ -1,7 +1,7 @@
 .App {
   max-width: 600px;
   margin: auto;
-  padding-top: 40px;
+  padding-top: 64px;
   text-align: center;
 }
 
@@ -10,13 +10,14 @@
 }
 
 .temp-current{
-  margin-top: 30px;
+  font-size: 3.4375rem;
+  margin-top: 53px;
   margin-bottom: 5px;
 }
 
 .temp-minmax{
   font-size: 1.4375rem;
-  margin-bottom: 45px;
+  margin-bottom: 53px;
 }
 
 .temp-minmax span{
@@ -27,13 +28,9 @@
   margin-left: 0;
 }
 
-.temp-current{
-  font-size: 3.4375rem;
-}
-
 .controls{
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .controls label{
